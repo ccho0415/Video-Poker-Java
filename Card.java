@@ -7,8 +7,8 @@
 
 public class Card implements Comparable<Card>{
 	
-	private int suit; // use integers 1-4 to encode the suit
-	private int rank; // use integers 1-13 to encode the rank
+	private int suit;
+	private int rank;
 
 //  A constructor for Card
 	public Card(int s, int r){
